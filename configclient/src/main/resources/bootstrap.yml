@@ -2,7 +2,7 @@ spring:
   cloud:
     config:
       name: configclient
-      lable: master
+      label: master
       discovery:
         enabled: true
         service-id: configserver
